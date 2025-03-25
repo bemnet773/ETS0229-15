@@ -106,3 +106,54 @@ capitalized_string = original_string.capitalize()
 
 print(capitalized_string)  # Output: "Hello, world!"
 
+third commit 
+
+The str.swapcase() method in Python is a built-in string method that returns a new string with all the uppercase letters converted to lowercase and all the lowercase letters converted to uppercase. This method is useful for toggling the case of characters in a string.
+
+▎Description
+
+• Method Signature: str.swapcase()
+
+• Return Type: str
+
+• Returns: A new string with the case of each character swapped.
+
+▎Usage
+
+The swapcase() method does not modify the original string; instead, it creates and returns a new string with the case swapped.
+
+▎Syntax
+
+new_string = original_string.swapcase()
+
+
+▎Parameters
+
+The swapcase() method does not take any parameters.
+
+▎Examples
+
+Here are some examples demonstrating how to use the swapcase() method:
+
+# Example 1: Basic usage
+original_string = "Hello, World!"
+swapped_string = original_string.swapcase()
+print(swapped_string)  # Output: "hELLO, wORLD!"
+
+# Example 2: All uppercase
+original_string = "PYTHON PROGRAMMING"
+swapped_string = original_string.swapcase()
+print(swapped_string)  # Output: "python programming"
+
+# Example 3: All lowercase
+original_string = "python programming"
+swapped_string = original_string.swapcase()
+print(swapped_string)  # Output: "PYTHON PROGRAMMING"
+
+# Example 4: Mixed case
+original_string = "PyThOn Is AwEsOmE"
+swapped_string = original_string.swapcase()
+print(swapped_string)  # Output: "pYtHoN iS aWesOmE"
+
+
+
