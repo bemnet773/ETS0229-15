@@ -155,5 +155,34 @@ original_string = "PyThOn Is AwEsOmE"
 swapped_string = original_string.swapcase()
 print(swapped_string)  # Output: "pYtHoN iS aWesOmE"
 
+forth commit 
+▎str.strip() Method in Python
+
+▎Overview
+
+The str.strip() method in Python is used to remove leading and trailing whitespace characters from a string. This includes spaces, tabs, newlines, and other whitespace characters. It can also take an optional argument to specify a set of characters to be removed from both ends of the string.
+
+▎Syntax
+
+string.strip([chars])
+
+
+▎Parameters
+
+• chars (optional): A string specifying the set of characters to be removed. If omitted, the method removes all leading and trailing whitespace.
+
+▎Return Value
+
+The method returns a new string with the specified characters removed from both ends. If no characters are specified, it removes whitespace by default.
+
+▎Examples
+
+▎Basic Usage
+
+text = "   Hello, World!   "
+stripped_text = text.strip()
+print(stripped_text)  # Output: "Hello, World!"
+
+
 
 
