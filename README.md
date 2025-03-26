@@ -211,6 +211,33 @@ result = text.isupper()
 print(result)  # Output: True
 
 
+sixth commit
+
+▎str.islower() Method in Python
+
+▎Overview
+
+The str.islower() method in Python is used to check if all the cased characters in a string are lowercase. It returns True if all cased characters in the string are lowercase and there is at least one cased character; otherwise, it returns False.
+
+▎Syntax
+
+string.islower()
+
+
+▎Return Value
+
+• True: If all cased characters in the string are lowercase and there is at least one cased character.
+
+• False: If there are no cased characters or if any cased character is not lowercase.
+
+▎Examples
+
+▎Basic Usage
+
+text = "hello"
+result = text.islower()
+print(result)  # Output: True
+
 
 
 
