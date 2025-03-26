@@ -183,6 +183,35 @@ text = "   Hello, World!   "
 stripped_text = text.strip()
 print(stripped_text)  # Output: "Hello, World!"
 
+fifth commit
+
+▎str.isupper() Method in Python
+
+▎Overview
+
+The str.isupper() method in Python is used to determine if all the characters in a string are uppercase letters. It returns True if all characters in the string are uppercase and there is at least one character; otherwise, it returns False.
+
+▎Syntax
+
+string.isupper()
+
+
+▎Return Value
+
+• True: If all cased characters in the string are uppercase and there is at least one cased character.
+
+• False: If there are no cased characters or if any cased character is not uppercase.
+
+▎Examples
+
+▎Basic Usage
+
+text = "HELLO"
+result = text.isupper()
+print(result)  # Output: True
+
+
+
 
 
 
