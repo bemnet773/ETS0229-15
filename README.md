@@ -369,6 +369,76 @@ my_set = {1, 2, 3, 4}
 length = len(my_set)
 print(length)  # Output: 4
 
+ninth commit
+
+▎Overview
+
+f-strings, or formatted string literals, are a feature introduced in Python 3.6 that allows for easier and more readable string formatting. They provide a way to embed expressions inside string literals, using curly braces {} to evaluate variables and expressions at runtime.
+
+▎Syntax
+
+To create an f-string, prefix the string literal with the letter f or F. Any expressions that need to be evaluated should be placed inside curly braces {}.
+
+f"string {expression}"
+
+
+▎Parameters
+
+• expression: Any valid Python expression that you want to include in the string. This can be variables, mathematical operations, function calls, etc.
+
+▎Features
+
+• Readability: f-strings are generally more readable than other string formatting methods.
+
+• Performance: f-strings are faster than both the % operator and the str.format() method.
+
+• Inline Expressions: You can include any valid Python expression inside the curly braces.
+
+▎Examples
+
+▎Basic Usage
+
+name = "Alice"
+age = 30
+greeting = f"Hello, my name is {name} and I am {age} years old."
+print(greeting)  # Output: Hello, my name is Alice and I am 30 years old.
+
+
+▎Expressions Inside f-Strings
+
+a = 5
+b = 10
+result = f"The sum of {a} and {b} is {a + b}."
+print(result)  # Output: The sum of 5 and 10 is 15.
+
+
+▎Formatting Numbers
+
+You can format numbers directly within f-strings:
+
+pi = 3.141592653589793
+formatted_pi = f"The value of pi is approximately {pi:.2f}."
+print(formatted_pi)  # Output: The value of pi is approximately 3.14.
+
+
+▎Calling Functions
+
+You can also call functions within f-strings:
+
+def greet(name):
+    return f"Hello, {name}!"
+
+message = f"{greet('Bob')}"
+print(message)  # Output: Hello, Bob!
+
+
+▎Escaping Braces
+
+If you need to include literal braces in your string, double them:
+
+value = 42
+message = f"The set contains {{ {value} }}."
+print(message)  # Output: The set contains { 42 }.
 
 
 
