@@ -444,6 +444,56 @@ print(message)  # Output: The set contains { 42 }.
 
 
 
+tenth commit
+
+
+▎README: Using str.format() in Python
+
+▎Overview
+
+This README provides an overview of the str.format() method in Python, which is used for formatting strings. This method allows you to create complex string outputs in a clean and readable way.
+
+▎Table of Contents
+
+• Introduction
+
+• Basic Usage
+
+• Positional and Keyword Arguments
+
+• Formatting Numbers
+
+• Padding and Aligning Strings
+
+• Using Format Specifiers
+
+• Nested Fields
+
+• Examples
+
+• Conclusion
+
+▎Introduction
+
+The str.format() method was introduced in Python 2.7 and 3.0 as a way to format strings dynamically. It replaces the older % formatting and offers more powerful and flexible options.
+
+▎Basic Usage
+
+The basic syntax of the str.format() method is:
+
+"string {}".format(value)
+
+
+▎Example:
+
+name = "Alice"
+greeting = "Hello, {}".format(name)
+print(greeting)  # Output: Hello, Alice
+
+
+
+
+
 
 
 
