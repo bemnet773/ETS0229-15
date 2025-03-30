@@ -493,6 +493,60 @@ print(greeting)  # Output: Hello, Alice
 
 
 
+eleventh commit
+
+
+▎str.isalnum() Method
+
+▎Overview
+
+The str.isalnum() method is a built-in string method in Python that checks whether all characters in a string are alphanumeric (i.e., letters and numbers) and returns True if they are, otherwise it returns False.
+
+▎Syntax
+
+str.isalnum()
+
+
+▎Parameters
+
+The isalnum() method does not take any parameters.
+
+▎Return Value
+
+• Returns True if all characters in the string are alphanumeric (at least one character is present).
+
+• Returns False if the string contains any characters that are not alphanumeric or if the string is empty.
+
+▎Examples
+
+Here are some examples to illustrate how to use the str.isalnum() method:
+
+# Example 1: Alphanumeric string
+string1 = "Hello123"
+print(string1.isalnum())  # Output: True
+
+# Example 2: String with spaces
+string2 = "Hello 123"
+print(string2.isalnum())  # Output: False
+
+# Example 3: String with special characters
+string3 = "Hello@123"
+print(string3.isalnum())  # Output: False
+
+# Example 4: Empty string
+string4 = ""
+print(string4.isalnum())  # Output: False
+
+# Example 5: Only digits
+string5 = "123456"
+print(string5.isalnum())  # Output: True
+
+# Example 6: Only letters
+string6 = "abcdef"
+print(string6.isalnum())  # Output: True
+
+
+
 
 
 
