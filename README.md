@@ -547,6 +547,41 @@ print(string6.isalnum())  # Output: True
 
 
 
+twelveth commit
+
+
+Python str.join() Method
+
+▎Overview
+
+The str.join() method in Python is a string method that takes an iterable (like a list or tuple) of strings and concatenates them into a single string, with a specified separator string inserted between each element. This method is particularly useful for creating formatted strings from collections of data.
+
+▎Syntax
+
+str.join(iterable)
+
+
+▎Parameters
+
+• iterable: An iterable (e.g., list, tuple, set) containing strings that you want to join. Non-string elements will raise a TypeError.
+
+▎Returns
+
+• A single string that is the concatenation of the strings in the iterable, separated by the string on which the method was called.
+
+▎Usage Examples
+
+▎Basic Example
+
+# Joining a list of strings
+words = ['Hello', 'world', 'Python']
+result = ' '.join(words)
+print(result)  # Output: Hello world Python
+
+
+
+
+
 
 
 
