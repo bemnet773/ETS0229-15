@@ -579,6 +579,43 @@ result = ' '.join(words)
 print(result)  # Output: Hello world Python
 
 
+thirteenth commit
+
+
+Overview
+
+The str.replace() method in Python is a built-in string method used to return a copy of a string with all occurrences of a specified substring replaced with another substring. This method is useful for modifying strings without altering the original string.
+
+▎Syntax
+
+str.replace(old, new[, count])
+
+
+▎Parameters
+
+• old: The substring that you want to replace.
+
+• new: The substring that will replace the old substring.
+
+• count (optional): An integer specifying the maximum number of occurrences to replace. If omitted, all occurrences will be replaced.
+
+▎Returns
+
+• A new string with the specified replacements made. The original string remains unchanged.
+
+▎Usage Examples
+
+▎Basic Example
+
+# Replacing all occurrences of a substring
+text = "Hello, world! Hello, everyone!"
+result = text.replace("Hello", "Hi")
+print(result)  # Output: Hi, world! Hi, everyone!
+
+
+
+
+
 
 
 
