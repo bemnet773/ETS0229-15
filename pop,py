@@ -1,4 +1,0 @@
-my_set = {1, 2, 3, 4}
-element = my_set.pop()  # Removes an arbitrary element (e.g., 1)
-print("Removed element:", element)
-print("Updated set:", my_set)  # The set will now be missing the popped element

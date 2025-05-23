@@ -1,3 +1,0 @@
-my_set = {1, 2, 3, 4}
-my_set.clear()  # This empties the set
-print("Cleared set:", my_set)  # Output will be: Cleared set: set()
